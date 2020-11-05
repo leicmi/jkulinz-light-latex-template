@@ -50,7 +50,7 @@
 % -----------------------------------------------------------------------------
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{tudelft-light/cover}[2018/02/08 TU Delft Light Report Class]
+\ProvidesPackage{jkulinz-light/cover}[2018/02/08 TU Delft Light Report Class]
 
 \RequirePackage{tikz}
 \RequirePackage{calc}
@@ -58,7 +58,7 @@
 \RequirePackage{graphicx}
 \RequirePackage{fontspec}
 \RequirePackage[us]{datetime}
-\RequirePackage{tudelft-light/style}  % Requires house style fonts and colors
+\RequirePackage{jkulinz-light/style}  % Requires house style fonts and colors
 
 \usetikzlibrary{calc, positioning, fit}
 
@@ -139,13 +139,13 @@
     \ifcase\nr\relax
         % Light Theme Setup
         \def\@cover@textcolor{tudelft-black}
-        \def\@cover@logo{tudelft-light/images/logo_black.pdf}
-        \def\@coverimage@defaultfile{tudelft-light/images/background_light.pdf}
+        \def\@cover@logo{jkulinz-light/images/logo_black.pdf}
+        \def\@coverimage@defaultfile{jkulinz-light/images/background_light.pdf}
     \or
         % Dark Theme Setup
         \def\@cover@textcolor{tudelft-white}
-        \def\@cover@logo{tudelft-light/images/logo_white.pdf}
-        \def\@coverimage@defaultfile{tudelft-light/images/background_dark.pdf}
+        \def\@cover@logo{jkulinz-light/images/logo_white.pdf}
+        \def\@coverimage@defaultfile{jkulinz-light/images/background_dark.pdf}
     \fi
 }
 \define@key{cover}{fill opacity}{\def\@cover@fillOpacity{#1}}

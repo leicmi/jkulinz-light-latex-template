@@ -8,7 +8,7 @@
 %
 % --- Class Documentation: ----------------------------------------------------
 % 
-% This package provides the tudelft-light/report class for use with XeLaTeX.
+% This package provides the jkulinz-light/report class for use with XeLaTeX.
 % 
 % The document class is based on the report class from the LaTeX Std. Lib.
 % For a full list of available document options refer to: 
@@ -31,7 +31,7 @@
 % -----------------------------------------------------------------------------
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{tudelft-light/report}[2018/02/08 TU Delft Light Report Class]
+\ProvidesClass{jkulinz-light/report}[2018/02/08 TU Delft Light Report Class]
 
 \RequirePackage{iftex}
 \RequireXeTeX % Raises error if not compiling with XeLaTeX
@@ -39,7 +39,7 @@
 % --- Class Options: ----------------------------------------------------------
 \RequirePackage{kvoptions}
 
-% Simplifying family name, otherwise it would be tudelft-light/report
+% Simplifying family name, otherwise it would be jkulinz-light/report
 \SetupKeyvalOptions{
     family=tud,
     prefix=tud@,
@@ -53,13 +53,13 @@
 
 \LoadClass{report}
 
-% --- Importing TU Delft Light Packages: --------------------------------------
-\RequirePackage{tudelft-light/packages}
-\RequirePackage{tudelft-light/style}
-\RequirePackage{tudelft-light/setup}
-\RequirePackage{tudelft-light/cover}
-\RequirePackage{tudelft-light/title}
-\RequirePackage{tudelft-light/macros}
+% --- Importing JKU Linz Light Packages: --------------------------------------
+\RequirePackage{jkulinz-light/packages}
+\RequirePackage{jkulinz-light/style}
+\RequirePackage{jkulinz-light/setup}
+\RequirePackage{jkulinz-light/cover}
+\RequirePackage{jkulinz-light/title}
+\RequirePackage{jkulinz-light/macros}
 
 % --- Document Layout & Title Margins: ----------------------------------------
 \titlespacing*{\chapter}{0pt}{-25pt}{10pt}
