@@ -1,4 +1,0 @@
-[submodule "tudelft-light"]
-	path = tudelft-light
-	url = https://github.com/skilkis/tudelft-light-template.git
-	branch = master
