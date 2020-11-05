@@ -2,7 +2,7 @@ name: build
 on:
   push:
     branches:
-      - master
+      - main
     tags:
       - "v[0-9]+.[0-9]+.[0-9]+*"
   pull_request:
@@ -87,10 +87,10 @@ jobs:
           asset_name: ${{ env.root_file }}.pdf
           asset_content_type: application/pdf
 
-      - name: ZIP tudelft-light Template
+      - name: ZIP jkulinz-light Template
         run: |
           sudo apt install zip
-          zip -r template.zip tudelft-light
+          zip -r template.zip jkulinz-light
 
       - name: Upload tudeft-light to Release
         id: upload-zip-asset
