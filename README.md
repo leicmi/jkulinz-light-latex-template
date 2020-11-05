@@ -1,6 +1,6 @@
 # ![LightLogo](./docs/static/header_logo.svg)
 
-![build](https://github.com/skilkis/tudelft-light/workflows/build/badge.svg)
+![build](https://github.com/leicmi/jkulinz-light-latex-template/workflows/build/badge.svg)
 
 A lightweight XeLaTeX Template for TU-Delft assignments and reports.
 
@@ -9,7 +9,7 @@ A lightweight XeLaTeX Template for TU-Delft assignments and reports.
 This template can be used right away by either downloading the released files
 or by embedded the template itself as a Git submodule. For the latter, a
 `.gitmodules` file can be defined as explained by the instructions in the
-[submodule](https://github.com/skilkis/tudelft-light-template).
+[submodule](https://github.com/leicmi/jkulinz-light-latex-template/tree/main-template).
 
 ## Highlights
 
@@ -35,7 +35,7 @@ The `\makecover` macro is also highly customizable:
     image angle=0,
     image xshift=0,
     image yshift=0,
-    image file=tudelft-light/images/background_light.pdf
+    image file=jkulinz-light/images/background_light.pdf
 ]
 ```
 
