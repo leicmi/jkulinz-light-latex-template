@@ -1,0 +1,4 @@
+[submodule "jkulinz-light"]
+    path = "jkulinz-light"
+    url = "https://github.com/leicmi/jkulinz-light-latex-template.git"
+	branch = "main-template"
